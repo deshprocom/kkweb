@@ -88,7 +88,7 @@ class App extends Component {
                         <ul className="nav navbar-nav navbar-right"
                             style={{
                                 backgroundColor: this.state.hide ? 'transparent' : '#e53c26',
-                                marginRight: this.state.hide ? 20 : 0,
+                                marginRight: this.state.hide ? 20 : -20,
                                 marginTop:this.state.hide ? 20 : -10,
                             }}>
                             {LinksLayout}
